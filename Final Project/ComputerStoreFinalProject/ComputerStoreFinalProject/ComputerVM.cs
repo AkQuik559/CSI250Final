@@ -24,9 +24,8 @@ namespace ComputerStoreFinalProject
 
         //Property to store the filename of a product image
         //This is the string that shows
-        public string ProductImageString { get; set; } 
+        public string ProductImageString { get; set; }
         //Set this file to take in only Images
-        [Required]
         [FileExtensions(Extensions = ".jpg,.png,.jpeg", ErrorMessage = "Images only")]
         //This is the actual picture of the computer
         public IFormFile ProductImageFile { get; set; }

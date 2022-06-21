@@ -19,6 +19,8 @@
     <Compile Remove="Migrations\20220618050615_initdb4.Designer.cs" />
     <Compile Remove="Migrations\20220618052054_Add-Migration initdb2.cs" />
     <Compile Remove="Migrations\20220618052054_Add-Migration initdb2.Designer.cs" />
+    <Compile Remove="Migrations\20220620190744_changeYearLength.cs" />
+    <Compile Remove="Migrations\20220620190744_changeYearLength.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

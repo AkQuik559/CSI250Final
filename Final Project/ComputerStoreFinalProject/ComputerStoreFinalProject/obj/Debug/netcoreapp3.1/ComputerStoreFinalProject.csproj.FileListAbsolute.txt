@@ -205,3 +205,9 @@ C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStor
 C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Computer\Edit.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Computer\Details.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Computer\Delete.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Delete.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\Order\Create.cshtml.g.cs
+C:\Users\Sunny\source\repos\Final Project\ComputerStoreFinalProject\ComputerStoreFinalProject\obj\Debug\netcoreapp3.1\Razor\Views\ComputerInvoice\Create.cshtml.g.cs

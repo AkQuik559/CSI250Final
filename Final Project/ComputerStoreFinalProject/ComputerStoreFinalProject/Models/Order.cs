@@ -12,6 +12,7 @@ namespace ComputerStoreFinalProject.Models
         [ForeignKey("Customer")]
         public int CustomerID { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         public DateTime OrderDate { get; set; }
 
 

@@ -29,6 +29,6 @@ namespace ComputerStoreFinalProject.Models
 
         [ForeignKey(nameof(CustomerID))]
         [InverseProperty("Address")]
-        public virtual Customer Customer { get; set; }
+        public  Customer Customer { get; set; }
     }
 }

@@ -91,12 +91,36 @@ namespace ComputerStoreFinalProject.Controllers
                 return NotFound();
             }
             //get teh customer out of the database
-            Customer c = _dbContext.Customers.SingleOrDefault(c => c.ID == ID);
-            if(c == null)
+            Customer customer = _dbContext.Customers.SingleOrDefault(c => c.ID == ID);
+            if(customer == null)
             {
                 return NotFound();
             }
-            return View(c);
+            return View(customer);
+        }
+
+        //Delete
+        [HttpGet]
+        public IActionResult Delete(int ID)
+        {
+            Customer customer = _dbContext.Customers.SingleOrDefault(c => c.ID == ID);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+            return View(customer);
+        }
+        [HttpPost]
+        public IActionResult Delete(Customer customer)
+        {
+            customer = _dbContext.Customers.SingleOrDefault(c => c.ID == customer.ID);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+            _dbContext.Customers.Remove(customer);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
